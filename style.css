@@ -1,0 +1,103 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: #007acc;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Navigasi */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: #005b99;
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #003f66;
+}
+
+/* Konten Utama */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: #005b99;
+}
+
+/* Infografis */
+.infografis-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.infografis-item {
+    flex: 1 1 30%;
+    background-color: #e0f7ff;
+    border: 1px solid #b3e5ff;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.chart {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #007acc;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin: auto;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #22cc00;
+    color: white;
+}
